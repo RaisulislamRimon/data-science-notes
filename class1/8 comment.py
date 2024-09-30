@@ -1,3 +1,5 @@
+# comment lines are ignored by python interpreter
+
 # single line comment
 
 """
