@@ -23,7 +23,7 @@
 
 # print("Total Sum = ", totalSum) # Total Sum =  1020
 
-# 3
+# 4
 
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
