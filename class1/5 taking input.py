@@ -23,11 +23,21 @@
 
 # print("Total Sum = ", totalSum) # Total Sum =  1020
 
-# 4
+# # 4
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+
+# totalSum = num1 + num2
+
+# print("Total Sum = ", totalSum) # Total Sum =  30
+
+
+# 5
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 
 totalSum = num1 + num2
 
-print("Total Sum = ", totalSum) # Total Sum =  30
+print("Total Sum = ", totalSum) # Total Sum =  6.5
