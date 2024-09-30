@@ -10,9 +10,17 @@
 # print(type(sum))
 
 
-#  2
-num = 10
-# num = float(num) # or
-# print(type(num))
-float_num = float(num)
-print(float_num)
+# #  2
+# num = 10
+# # num = float(num) # or
+# # print(type(num))
+# float_num = float(num)
+# print(float_num)
+
+# 3
+
+a = 10
+print(type(a))
+
+a = "hello"
+print(type(a))
