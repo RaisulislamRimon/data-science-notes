@@ -48,6 +48,38 @@
 # print(sum)
 # print(type(sum))
 
-name = input("enter your name: ")
-print("Your name is: ", name, ".")
-print(type(name))
+# name = input("enter your name: ")
+# print("Your name is: ", name, ".")
+# print(type(name))
+
+# Print("Hello")
+# print("Hello")
+# print('Hello')
+# ⦁	All of the above
+
+# X=100
+# x = 200
+# x2 = -3
+# # 2x = 20
+# # X-a = 10
+# _aa499 = 60
+
+# x = 6
+# x = 'hello'
+# print(type(x))
+
+# a = "Hello World"
+# print(a[-3:-1])
+
+#  take input & find sum of two numbers
+a = input("enter first number: ")
+b = input("enter second number: ")
+
+sum = float(a) + float(b)
+
+print("Result: ", sum)
+
+#  swap two numbers
+a, b = b, a
+print(a, b)
+
