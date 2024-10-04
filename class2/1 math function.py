@@ -8,5 +8,8 @@
 # print(number)
 # print(type(number))
 
-num1 = 10.5
-print("round number: ", round(num1))
+# num1 = 10.5
+# print("round number: ", round(num1))
+
+num1 = -10.5
+print("absolute number", abs(num1))
