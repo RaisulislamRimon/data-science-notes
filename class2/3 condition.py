@@ -15,3 +15,10 @@
 
 
 print("program 3")
+# mark = 34
+mark = float(input("Enter students mark: 10"))
+
+if mark > 33:
+    print("pass")
+else:
+    print("fail")
