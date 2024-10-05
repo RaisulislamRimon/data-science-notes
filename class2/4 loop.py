@@ -63,23 +63,41 @@
 # print("Done")
 
 
-# program 5
-# finding the total multiplication of numbers 1 to 5
+# # program 5
+# # finding the total multiplication of numbers 1 to 5
 
-# initialize the first number/variable
+# # initialize the first number/variable
+# number = 1
+# # initialize the result variable to 1
+# result = 1
+
+# while number <= 5:
+#     # print the current number
+#     print("Number is ", number)
+#     # multiply the current number with the result
+#     result = result * number
+#     # increment the number by 1
+#     number = number + 1
+
+# # print the result
+# print("Result is ", result)
+
+# print("Done")
+
+
+# program 6
 number = 1
-# initialize the result variable to 1
-result = 1
+result = 0
 
-while number <= 5:
-    # print the current number
-    print("Number is ", number)
-    # multiply the current number with the result
-    result = result * number
-    # increment the number by 1
+while True:
+    print("number is: ", number)
+    result = result + number
     number = number + 1
-    
-# print the result
-print("Result is ", result)
 
-print("Done")
+    # check if the number is greater than 5
+    # if so, break out of the loop
+    if number > 5:
+        break
+
+# print the result
+print("Result: ", result)
