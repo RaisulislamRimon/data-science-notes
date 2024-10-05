@@ -21,10 +21,20 @@
 # print("Counter is: ", counter)
 
 
-# program 2 - endless loop
+# # program 2 - endless loop
+# counter = 1
+
+# while counter <= 5:
+#     print("Counter is ", counter)
+
+# print("Done")
+
+
+# program 3
 counter = 1
 
 while counter <= 5:
     print("Counter is ", counter)
+    counter = counter + 1
 
 print("Done")
