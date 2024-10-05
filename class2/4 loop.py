@@ -85,19 +85,24 @@
 # print("Done")
 
 
-# program 6
-number = 1
-result = 0
+# # program 6
+# number = 1
+# result = 0
 
-while True:
-    print("number is: ", number)
-    result = result + number
-    number = number + 1
+# while True:
+#     print("number is: ", number)
+#     result = result + number
+#     number = number + 1
 
-    # check if the number is greater than 5
-    # if so, break out of the loop
-    if number > 5:
-        break
+#     # check if the number is greater than 5
+#     # if so, break out of the loop
+#     if number > 5:
+#         break
 
-# print the result
-print("Result: ", result)
+# # print the result
+# print("Result: ", result)
+
+
+
+# program 7
+# ...
