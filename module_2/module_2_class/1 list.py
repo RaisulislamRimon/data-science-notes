@@ -1,3 +1,4 @@
+# list program (array)
 bazar_list = [
     'chini',
     'lobon',
