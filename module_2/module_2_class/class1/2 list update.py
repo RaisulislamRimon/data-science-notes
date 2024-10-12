@@ -18,3 +18,14 @@ print(bazar_list)
 
 bazar_list[2] = "lobongo"
 print(bazar_list)
+
+
+new_bazar_list = list((
+    "item1",
+    "item2",
+    "item3"
+))
+
+print(new_bazar_list)
+print(type(new_bazar_list))
+print("hello")
