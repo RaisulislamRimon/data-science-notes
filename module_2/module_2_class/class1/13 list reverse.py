@@ -4,5 +4,7 @@ bazar_list = [
     'ada'
 ]
 
+print('bazar_list: ', bazar_list)
+
 bazar_list.reverse()
-print(bazar_list)
+print('reverse bazar_list: ', bazar_list)
