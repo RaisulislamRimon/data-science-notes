@@ -11,4 +11,11 @@ bazar_list_new = [
     'egg'
 ]
 
-print(bazar_list_new)
+bazar_list_new_copy = [
+    bazar_list,
+    'sabzi',
+    'egg'
+]
+
+print('bazar_list_new: ', bazar_list_new)
+print('bazar_list_new_copy: ', bazar_list_new_copy)
