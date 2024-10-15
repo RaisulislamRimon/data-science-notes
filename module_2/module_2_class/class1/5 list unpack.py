@@ -11,3 +11,14 @@ print(item1)
 print(item2)
 print(item3)
 # print(item4)
+
+player_names = list((
+    "rahim",
+    "karim"
+))
+
+# player1 = player_names
+player1, player2 = player_names
+
+print('player1:', player1)
+print('player2:', player2)
