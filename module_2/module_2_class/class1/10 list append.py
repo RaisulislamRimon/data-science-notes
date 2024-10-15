@@ -6,5 +6,7 @@ bazar_list = [
 ]
 
 bazar_list.append('pejyaj')
+print(bazar_list)
 
+bazar_list.append('morich')
 print(bazar_list)
