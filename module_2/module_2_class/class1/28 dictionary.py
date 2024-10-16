@@ -52,3 +52,21 @@ print(student) # {}
 # remove all the items from the dictionary
 student.clear()
 print(student) # {}
+
+
+# new dictionary
+student = dict(name="MD Rimon", age=25, subject="CSE")
+print(student)
+print(type(student))
+print(len(student.items()))
+
+# convert the dictionary into list
+print(list(student.items())) # [('name', 'MD Rimon'), ('age', 25), ('subject', 'CSE')]
+
+# convert the dictionary into tuple
+print(tuple(student.items())) # (('name', 'MD Rimon'), ('age', 25), ('subject', 'CSE'))
+
+# convert the dictionary into set
+print(set(student.items())) # {('name', 'MD Rimon'), ('subject', 'CSE'), ('age', 25))
+
+
