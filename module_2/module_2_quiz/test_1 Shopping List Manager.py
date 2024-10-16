@@ -10,12 +10,14 @@ The user can add items to the shopping list. When "done" is typed, the input sys
 # initializing the shopping_list variable
 shopping_list = []
 
+print("If you want to stop this program, type 'done'")
+
 while True:
     # user input
     shopping_item = input("Enter shopping item: ")
     
     # if user typed "done", the system will close the input system
-    if shopping_item == "done":
+    if shopping_item.lower() == "done":
         if len(shopping_list) == 0:
             # if there is no item in the list, the system will display "No items"
             print("No items in the shopping list.")

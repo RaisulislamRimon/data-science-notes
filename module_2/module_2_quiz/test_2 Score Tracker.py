@@ -10,6 +10,8 @@ You are asked to create a Score Tracker. You'll take the name and the score of a
 # initializing the students_score dictionary
 score_tracker = {}
 
+print("If you want to stop this program, type 'stop'")
+
 while True:
     # taking the student's name and score as input
     students_name = input("Enter student's name: ")
