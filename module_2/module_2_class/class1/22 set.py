@@ -6,6 +6,11 @@
 # 4. Heterogeneous: A set can contain elements of different data types (e.g., integers, strings, floats).
 # 5. Iterable: You can iterate through the elements of a set using loops.
 
+# example of set
+fruits_set = {"apple", "banana", "jackfruit"}
+print('set: ', fruits_set)
+print('type of set:', type(fruits_set))
+
 # Example: Add elements
 fruits_set.add("orange")
 print("Set with added orange:", fruits_set)
@@ -15,10 +20,6 @@ fruits_set.remove("banana")
 print("Set with removed banana:", fruits_set)
 
 
-# example of set
-fruits_set = {"apple", "banana", "jackfruit"}
-print('set: ', fruits_set)
-print('type of set:', type(fruits_set))
 # print a new line
 print()
 
