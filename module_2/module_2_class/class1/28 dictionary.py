@@ -27,3 +27,28 @@ if "is_valid" in student:
 else:
     # If the key doesn't exist, print False
     print(False)
+
+# check the type of dictionary
+print(type(student)) # <class 'dict'>
+
+print(student.keys()) # dict_keys(['name', 'age', 'subject'])
+print(student.values()) # dict_values(['MD Rimon', 26, 'CSE'])
+
+# check the length of dictionary
+print(len(student)) # 3
+
+# remove the given key from the dictionary
+print(student.pop("name")) # MD Rimon
+print(student) # {'age': 26, 'subject': 'CSE'}
+
+# delete the given key from the dictionary
+del student["age"]
+print(student) # {'subject': 'CSE'}
+
+# remove the last item from the dictionary
+print(student.popitem()) # ('subject', 'CSE')
+print(student) # {}
+
+# remove all the items from the dictionary
+student.clear()
+print(student) # {}
