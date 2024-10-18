@@ -43,3 +43,15 @@ for i in range(10, 1, 2):
     print("Number is: ", i)
 
 
+
+
+# using range function
+print("\nUsing range function:")
+total = 0
+for i in range(1, 10, 3):
+    print("The number is: ", i)
+    total+=i
+
+print("The total number is: ", total)
+
+print("Done")
