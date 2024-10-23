@@ -29,3 +29,15 @@ for a in num:
 
 result = list(map(square, num2))
 print(result)
+
+
+
+def myfunc(x):
+    if x < 18:
+        return False
+    else:
+        return True
+
+ages = [5, 12, 17, 18, 24, 32]
+adults = list(filter(myfunc, ages))
+print(adults)
