@@ -22,3 +22,6 @@ SELECT first_name FROM employees;
 -- Selecting all the data from the table
 SELECT * FROM employees;
 
+-- Selecting all the data from the table sort by first name
+SELECT * FROM employees ORDER BY first_name;
+
