@@ -8,15 +8,16 @@ CREATE TABLE IF NOT EXISTS employees (
     last_name VARCHAR(50),
     email VARCHAR(100),
   	state VARCHAR(100),
-    city VARCHAR(100)
+    city VARCHAR(100),
+    salary DECIMAL(10, 2)
 );
 
 -- Inserting data into the table
-INSERT INTO employees (employee_id, first_name, last_name, email, state, city)
+INSERT INTO employees (employee_id, first_name, last_name, email, state, city, salary)
 VALUES 
-    (1, 'John', 'Doe', 'james.madison@hi.com', 'NY', 'Fairport'),
-    (2, 'Jane', 'Smith', 'john.mclean@hi.com', 'NY', 'New York'),
-    (3, 'Bob', 'Johnson', 'james.buchanan@hi.com', 'US', 'New York');
+    (1, 'John', 'Doe', 'james.madison@hi.com', 'NY', 'Fairport', 1000.00),
+    (2, 'Jane', 'Smith', 'john.mclean@hi.com', 'NY', 'New York', 2000.00),
+    (3, 'Bob', 'Johnson', 'james.buchanan@hi.com', 'US', 'New York', 3000.00);
 
 -- Selecting all the data from the table
 -- SELECT first_name FROM employees;
@@ -35,4 +36,6 @@ VALUES
 -- SELECT * FROM employees WHERE state = 'NY' AND city = 'Fairport';
 
 -- SELECT * from employees WHERE first_name like 'B%';
-select * FROM employees WHERE first_name LIKE 'J%'
+-- select * FROM employees WHERE first_name LIKE 'J%'
+
+SELECT state, sum(salary) as total FROM employees GROUP BY first_name;
