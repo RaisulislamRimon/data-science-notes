@@ -25,3 +25,9 @@ SELECT * FROM employees;
 -- Selecting all the data from the table sort by first name
 SELECT * FROM employees ORDER BY first_name;
 
+-- Selecting all the data from the table sort by first name in ascending order
+SELECT * FROM employees ORDER BY first_name ASC;
+
+-- selecting all the data from the table sort by first name in descending order
+SELECT * FROM employees ORDER BY first_name DESC;
+
