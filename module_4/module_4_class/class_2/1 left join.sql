@@ -27,3 +27,17 @@ SELECT BB.ID, AA.Sales, BB.Region
 FROM AA
 INNER join BB
 on AA.ID = BB.ID 
+
+
+-- full join
+SELECT BB.ID, AA.Sales, BB.Region
+FROM AA
+FULL join BB
+on AA.ID = BB.ID 
+
+
+-- full join
+SELECT AA.ID, BB.ID, AA.Sales, BB.Region
+FROM AA
+FULL join BB
+on AA.ID = BB.ID 
