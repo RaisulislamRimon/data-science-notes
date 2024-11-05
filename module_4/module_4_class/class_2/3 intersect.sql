@@ -1,0 +1,6 @@
+-- intersect
+SELECT id FROM AA
+INTERSECT
+SELECT id FROM BB
+ORDER BY id
+
