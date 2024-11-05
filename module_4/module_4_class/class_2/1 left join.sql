@@ -12,3 +12,11 @@ FROM AA
 right join BB
 on AA.ID = BB.ID 
 -- WHERE AA.ID = 'B'
+
+
+-- or
+-- right join
+SELECT BB.ID, AA.Sales, BB.Region
+FROM BB
+LEFT join AA
+on AA.ID = BB.ID 
