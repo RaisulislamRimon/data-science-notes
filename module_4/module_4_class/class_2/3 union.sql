@@ -9,3 +9,8 @@ UNION ALL
 SELECT id FROM BB
 ORDER BY id
 
+-- union all
+SELECT firstName from patient
+union ALL
+SELECT firstName from guardian
+ORDER BY firstName
