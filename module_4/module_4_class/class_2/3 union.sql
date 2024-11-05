@@ -5,6 +5,12 @@ SELECT * FROM BB
 
 -- union all
 SELECT id FROM AA
+UNION 
+SELECT id FROM BB
+ORDER BY id
+
+-- union all
+SELECT id FROM AA
 UNION ALL
 SELECT id FROM BB
 ORDER BY id
