@@ -41,3 +41,15 @@ SELECT AA.ID, BB.ID, AA.Sales, BB.Region
 FROM AA
 FULL join BB
 on AA.ID = BB.ID 
+
+
+-- full join
+SELECT ISNULL(AA.ID, BB.ID) as ID, AA.Sales, BB.Region
+FROM BB
+FULL join AA on AA.ID = BB.ID 
+
+
+-- full join
+SELECT COALESCE(AA.ID, BB.ID) as ID, AA.Sales, BB.Region
+FROM BB
+FULL join AA on AA.ID = BB.ID 
