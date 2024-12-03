@@ -12,7 +12,11 @@ for jupyter notebook file run:
         ikernel setup
 
     commands:
-        python -m venv .venv
+        for python:
+            python -m venv .venv
+        for python3:
+            python3 -m venv .venv
+            
     how to activate:
         source .venv/bin/activate
 
